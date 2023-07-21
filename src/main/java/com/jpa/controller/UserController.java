@@ -20,6 +20,7 @@ public class UserController {
 	@Autowired(required = false)
 	private UserService service;
 	
+
 	@PostMapping(value="/addUser")
 	public User addUser(@RequestBody User user) {
 		return service.saveUser(user);

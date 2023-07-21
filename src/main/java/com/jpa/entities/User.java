@@ -10,6 +10,9 @@ public class User {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	
+	//user details
+	
 	private int id;
 	private String name;
 	private String city;
